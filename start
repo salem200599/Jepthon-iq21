@@ -4,7 +4,7 @@
 _get_ziplink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "Jepthon-Ar" ]]
+    if [[ $UPSTREAM_REPO == "Jepthon-iq" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL2xNbDEwbC9KRVAtUEFDSy9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
