@@ -1,9 +1,9 @@
 #!/bin/bash
 
 echo "
-          JepThon
+         SALEM_VI
 
-        𓍹 Visit @jepthon for help 𓍻
+        𓍹 Visit @SALEM_400 for help 𓍻
 "
 
 python3 -m userbot
